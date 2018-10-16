@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Leroy Merlin",
+            "program": "${workspaceFolder}/app.js",
+            "env":{
+                "DF_PROJECT_ID":"leroymerlinchatbotmvp-test",
+                "DF_SERVICE_ACCOUNT_PATH":"${workspaceFolder}/leroymerlinchatbotmvp-test-731f29c09d8e.json"
+            }
+        },
+         {
+            "type": "node",
+            "request": "launch",
+            "name": "Agent Test",
+            "program": "${workspaceFolder}/app.js",
+            "env":{
+                "DF_PROJECT_ID":"agenttest-93eb7",
+                "DF_SERVICE_ACCOUNT_PATH":"${workspaceFolder}/agenttest-93eb7-65e8b5875771.json"
+            }
+        }
+    ]
+}
